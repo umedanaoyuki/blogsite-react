@@ -11,7 +11,7 @@ header {
     align-items: center;
     background-color: silver;
     color: white;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     z-index: 10;
 }
