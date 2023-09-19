@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 //rcc
 const Header = () => {
@@ -10,10 +11,12 @@ const Header = () => {
         <nav>
             <ul>
                 <li>
-                    <a href="#">ホーム</a>
+                    <Link to="/">ホーム</Link>
+                    {/*<a href="#">ホーム</a>*/}
                 </li>
                 <li>
-                    <a href="#">ブログ</a>
+                    <Link to="/blog">ブログ</Link>
+                    {/*<a href="#">ブログ</a>*/}
                 </li>
                 <li>
                     <a href="#">SNS</a>
