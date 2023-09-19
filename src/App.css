@@ -7,6 +7,7 @@
 
 header {
     display: flex;
+    height: 90px;
     justify-content: space-around;
     align-items: center;
     background-color: silver;
@@ -19,6 +20,12 @@ header {
 header .logo h3 {
     font-size: 30px;
 }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
 
 nav ul li {
     list-style: none;
